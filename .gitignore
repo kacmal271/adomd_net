@@ -1,0 +1,90 @@
+## Ignore Visual Studio temporary files, build results, and user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio cache/options
+.vs/
+
+# Rider / VSCode (just in case)
+.idea/
+.vscode/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# NuGet cache (machine-wide)
+.nuget/NuGet.Config
+.nuget/NuGet.targets
+.nuget/NuGet.props
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# SQL Server / SSIS / SSAS artifacts (local only)
+*.ispac
+*.dtproj.user
+*.dwproj.user
+*.bim.user
+*.asdatabase
+*.cub.xml
+*.dsv.xml
+
+# SSMS / local DB artifacts
+*.mdf
+*.ldf
+
+# Publish profiles
+*.pubxml
+*.publish.xml
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Coverage
+*.coverage
+*.coveragexml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
