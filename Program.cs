@@ -20,7 +20,7 @@ using (var conn = new AdomdConnection(connStr))
   CubeDef cube = conn.Cubes["adventure_works_datacube"];
 
   Console.WriteLine(new string('*', 50));
-  Console.WriteLine($"** Hierarchies (Levels) in DIM: Due Date");
+  Console.WriteLine($"** Hierarchies in DIM: Due Date");
 
   foreach (Hierarchy h in cube.Dimensions["Due Date"].Hierarchies)
   {
@@ -93,7 +93,7 @@ using (var conn = new AdomdConnection(connStr))
 
       // here relational constraints are NOT BEING CHECKED (good)
       salesOverYears.Load(reader);
-
+      
       set.Tables.Remove(salesOverYears);
 
       // we now have: columns and rows (ADO.NET structure)
